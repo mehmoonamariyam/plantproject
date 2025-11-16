@@ -4,56 +4,56 @@ export const airPurifyingPlants = [
     name: "Snake Plant",
     description: "Excellent at filtering toxins and improving indoor air quality.",
     price: 1200,
-    image: "/assets/images/snake_plant.jpeg",
+    image: "./assets/images/snake_plant.jpeg",
   },
   {
     id: 2,
     name: "Aloe Vera",
     description: "Purifies the air and offers soothing gel for skin care.",
     price: 950,
-    image: "/assets/images/alerovera.jpeg",
+    image: "./assets/images/alerovera.jpeg",
   },
   {
     id: 3,
     name: "Peace Lily",
     description: "Removes harmful gases and adds elegance to interiors.",
     price: 1100,
-    image: "/assets/images/peace.webp",
+    image: "./assets/images/peace.webp",
   },
   {
     id: 4,
     name: "Spider Plant",
     description: "Great beginner-friendly plant that cleanses indoor air.",
     price: 800,
-    image: "/assets/images/spider-plant.jpeg",
+    image: "./assets/images/spider-plant.jpeg",
   },
   {
     id: 5,
     name: "Boston Fern",
     description: "Naturally humidifies air and removes formaldehyde.",
     price: 1000,
-    image: "/assets/images/boster-furm.jpeg",
+    image: "./assets/images/boster-furm.jpeg",
   },
   {
     id: 6,
     name: "Areca Palm",
     description: "A natural humidifier that removes carbon monoxide and toxins.",
     price: 1300,
-    image: "/assets/images/archia.webp",
+    image: "./assets/images/archia.webp",
   },
   {
     id: 7,
     name: "Rubber Plant",
     description: "Absorbs airborne chemicals and adds a bold, glossy touch to interiors.",
     price: 1250,
-    image: "/assets/images/rubbertree.jpg",
+    image: "./assets/images/rubbertree.jpg",
   },
   {
     id: 8,
     name: "Chinese Evergreen",
     description: "Low-maintenance plant that removes air pollutants effectively.",
     price: 900,
-    image: "/assets/images/chinees.jpg",
+    image: "./assets/images/chinees.jpg",
   },
 ];
 
@@ -64,21 +64,21 @@ export const fragrantPlants = [
     name: "Lavender",
     description: "A calming fragrance that promotes relaxation and better sleep.",
     price: 1100,
-    image: "/assets/images/levender.jpg"
+    image: "./assets/images/levender.jpg"
   },
   {
     id: 2,
     name: "Jasmine",
     description: "Famous for its sweet fragrance that uplifts mood and reduces stress.",
     price: 1400,
-    image: "/assets/images/jasmine-flower.webp",
+    image: "./assets/images/jasmine-flower.webp",
   },
   {
     id: 3,
     name: "Rosemary",
     description: "An aromatic herb that enhances focus and air freshness.",
     price: 900,
-    image: "/assets/images/rosery.jpeg"
+    image: "./assets/images/rosery.jpeg"
   },
   {
     id: 4,
@@ -122,7 +122,7 @@ export const plantsData = [
     name: "Snake Plant",
     description: "Excellent at filtering toxins and improving indoor air quality.",
     price: 1200,
-    image: "/assets/images/snake_plant.jpeg",
+    image: "./assets/images/snake_plant.jpeg",
     category: "Air Purifying"
   },
   {
@@ -130,7 +130,7 @@ export const plantsData = [
     name: "Aloe Vera",
     description: "Purifies the air and offers soothing gel for skin care.",
     price: 950,
-    image: "/assets/images/alerovera.jpeg",
+    image: "./assets/images/alerovera.jpeg",
     category: "Air Purifying"
   },
   {
@@ -138,7 +138,7 @@ export const plantsData = [
     name: "Peace Lily",
     description: "Removes harmful gases and adds elegance to interiors.",
     price: 1100,
-    image: "/assets/images/peace.webp",
+    image: "./assets/images/peace.webp",
     category: "Air Purifying"
   },
   {
@@ -146,7 +146,7 @@ export const plantsData = [
     name: "Spider Plant",
     description: "Great beginner-friendly plant that cleanses indoor air.",
     price: 800,
-    image: "/assets/images/spider-plant.jpeg",
+    image: "./assets/images/spider-plant.jpeg",
     category: "Air Purifying"
   },
   {
@@ -154,7 +154,7 @@ export const plantsData = [
     name: "Boston Fern",
     description: "Naturally humidifies air and removes formaldehyde.",
     price: 1000,
-    image: "/assets/images/boster-furm.jpeg",
+    image: "./assets/images/boster-furm.jpeg",
     category: "Air Purifying"
   },
   {
@@ -162,7 +162,7 @@ export const plantsData = [
     name: "Areca Palm",
     description: "A natural humidifier that removes carbon monoxide and toxins.",
     price: 1300,
-    image: "/assets/images/archia.webp",
+    image: "./assets/images/archia.webp",
     category: "Air Purifying"
   },
   {
@@ -170,7 +170,7 @@ export const plantsData = [
     name: "Rubber Plant",
     description: "Absorbs airborne chemicals and adds a bold, glossy touch to interiors.",
     price: 1250,
-    image: "/assets/images/rubbertree.jpg",
+    image: "./assets/images/rubbertree.jpg",
     category: "Air Purifying"
   },
   {
@@ -178,7 +178,7 @@ export const plantsData = [
     name: "Chinese Evergreen",
     description: "Low-maintenance plant that removes air pollutants effectively.",
     price: 900,
-    image: "/assets/images/chinees.jpg",
+    image: "./assets/images/chinees.jpg",
     category: "Air Purifying"
   },
   {
@@ -186,7 +186,7 @@ export const plantsData = [
     name: "Lavender",
     description: "A calming fragrance that promotes relaxation and better sleep.",
     price: 1100,
-    image: "/assets/images/levender.jpg",
+    image: "./assets/images/levender.jpg",
     category: "Fragrant"
   },
   {
@@ -194,7 +194,7 @@ export const plantsData = [
     name: "Jasmine",
     description: "Famous for its sweet fragrance that uplifts mood and reduces stress.",
     price: 1400,
-    image: "/assets/images/jasmine-flower.webp",
+    image: "./assets/images/jasmine-flower.webp",
     category: "Fragrant"
   },
   {
@@ -202,7 +202,7 @@ export const plantsData = [
     name: "Rosemary",
     description: "An aromatic herb that enhances focus and air freshness.",
     price: 900,
-    image: "/assets/images/rosery.jpeg",
+    image: "./assets/images/rosery.jpeg",
     category: "Fragrant"
   },
   {

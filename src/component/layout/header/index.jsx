@@ -16,7 +16,7 @@ const Header = () => {
       <div className="col-12 col-md-4 d-flex align-items-center justify-content-start">
         <Link className="navbar-brand fw-bold d-flex align-items-center" to="/">
           <img
-            src="/assets/images/logo.jpeg"
+            src="./assets/images/logo.jpeg"
             width={50}
             height={50}
             alt="Logo"
