@@ -60,62 +60,123 @@ export const airPurifyingPlants = [
 
 export const fragrantPlants = [
   {
-    id: 1,
+    id: 9,
     name: "Lavender",
     description: "A calming fragrance that promotes relaxation and better sleep.",
     price: 1100,
     image: "./assets/images/levender.jpg"
   },
   {
-    id: 2,
+    id: 10,
     name: "Jasmine",
     description: "Famous for its sweet fragrance that uplifts mood and reduces stress.",
     price: 1400,
     image: "./assets/images/jasmine-flower.webp",
   },
   {
-    id: 3,
+    id: 11,
     name: "Rosemary",
     description: "An aromatic herb that enhances focus and air freshness.",
     price: 900,
     image: "./assets/images/rosery.jpeg"
   },
   {
-    id: 4,
+    id: 12,
     name: "Gardenia",
     description: "Beautiful white flowers with a rich, pleasant fragrance.",
     price: 1250,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUuKtSQJgeJziWkp3bk0ppTpOqNnAq4e4Utz-q8_RFECEYIZIB6M6LjlueKcl6tX8JOKs&usqp=CAU"
   },
   {
-    id: 5,
+    id: 13,
     name: "Lemon Balm",
     description: "Releases a gentle lemon scent that freshens up any room.",
     price: 850,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfJhBE2XGeH_ThX40DSTvJkE9Y0QWYyv3sQ&s"
   },
   {
-    id: 6,
+    id: 14,
     name: "Rose",
     description: "Classic fragrant flower loved for its beauty and scent.",
     price: 1300,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBO_MWINZPqTn3ZhUcccZ14vkyvrFwmN6lXwGybTeK6hfX5q6s6rqGUt4XuDkE7dBDSk&usqp=CAU"
   },
   {
-    id: 7,
+    id: 15,
     name: "Mint",
     description: "Fresh aroma that adds a natural refreshing scent indoors.",
     price: 700,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTdFDBjQHaHTs-L0a9YT55CSaYHGqs9hchA&s"
   },
   {
-    id: 8,
+    id: 16,
     name: "Chamomile",
     description: "Delicate fragrance that soothes and relaxes the senses.",
     price: 950,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vx_zpVmJsQv2WA_jYhiC8GSBnfRWQkr-ww&s"
   }
 ];
+
+export const medicinalPlants = [
+  {
+    id: 17,
+    name: "Tulsi",
+    description: "Boosts immunity, reduces stress, and purifies the air.",
+    price: 700,
+    image: "./assets/images/tulsi.webp",
+  },
+  {
+    id: 18,
+    name: "Neem",
+    description: "Has antibacterial properties and helps maintain healthy skin.",
+    price: 900,
+    image: "./assets/images/neem.webp",
+  },
+  {
+    id: 19,
+    name: "Aloe Vera",
+    description: "Healing gel for burns, cuts, and skin hydration.",
+    price: 950,
+    image: "./assets/images/alerovera.jpeg",
+  },
+  {
+    id: 20,
+    name: "Mint",
+    description: "Helps digestion, relieves headaches, and freshens breath.",
+    price: 700,
+    image: "./assets/images/mint.webp",
+  },
+  {
+    id: 21,
+    name: "Ginger Plant",
+    description: "Supports digestion and has anti-inflammatory properties.",
+    price: 850,
+    image: "./assets/images/ginger.jpg",
+  },
+  {
+    id: 22,
+    name: "Chamomile",
+    description: "Calms nerves, aids sleep, and reduces inflammation.",
+    price: 950,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vx_zpVmJsQv2WA_jYhiC8GSBnfRWQkr-ww&s",
+  },
+  {
+    id: 23,
+    name: "Lemongrass",
+    description: "Helps in digestion, reduces stress, and acts as a natural detoxifier.",
+    price: 800,
+    image: "./assets/images/lemongrass.webp",
+  },
+  {
+    id: 24,
+    name: "Holy Basil",
+    description: "Supports respiratory health and boosts immunity.",
+    price: 750,
+    image: "./assets/images/holibasil.webp",
+  }
+];
+
+
 export const plantsData = [
   {
     id: 1,
@@ -244,5 +305,69 @@ export const plantsData = [
     price: 950,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vx_zpVmJsQv2WA_jYhiC8GSBnfRWQkr-ww&s",
     category: "Fragrant"
-  }
+  },
+  {
+    id: 17,
+    name: "Tulsi",
+    description: "Boosts immunity, reduces stress, and purifies the air.",
+    price: 700,
+    image: "./assets/images/tulsi.webp",
+    category: "Medicinal"
+  },
+  {
+    id: 18,
+    name: "Neem",
+    description: "Has antibacterial properties and helps maintain healthy skin.",
+    price: 900,
+    image: "./assets/images/neem.webp",
+    category: "Medicinal"
+  },
+  {
+    id: 19,
+    name: "Aloe Vera",
+    description: "Healing gel for burns, cuts, and skin hydration.",
+    price: 950,
+    image: "./assets/images/alerovera.jpeg",
+    category: "Medicinal"
+  },
+  {
+    id: 20,
+    name: "Mint",
+    description: "Helps digestion, relieves headaches, and freshens breath.",
+    price: 700,
+    image: "./assets/images/mint.webp",
+    category: "Medicinal"
+  },
+  {
+    id: 21,
+    name: "Ginger Plant",
+    description: "Supports digestion and has anti-inflammatory properties.",
+    price: 850,
+    image: "./assets/images/ginger.jpg",
+    category: "Medicinal"
+  },
+  {
+  id: 22,
+  name: "Chamomile",
+  description: "Calms nerves, aids sleep, and reduces inflammation.",
+  price: 950,
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vx_zpVmJsQv2WA_jYhiC8GSBnfRWQkr-ww&s",
+  category: "Medicinal"
+},
+{
+  id: 23,
+  name: "Lemongrass",
+  description: "Helps in digestion, reduces stress, and acts as a natural detoxifier.",
+  price: 800,
+  image: "./assets/images/lemongrass.webp",
+  category: "Medicinal"
+},
+{
+  id: 24,
+  name: "Holy Basil",
+  description: "Supports respiratory health and boosts immunity.",
+  price: 750,
+  image: "./assets/images/holybasil.webp",
+  category: "Medicinal"
+}
 ];
